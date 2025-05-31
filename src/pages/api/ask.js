@@ -21,11 +21,13 @@ export default async function handler(req, res) {
         messages: [
           {
             role: "system",
-            content: `Sen bir Türk hukuk uzmanısın. Sadece "${moduleTitle}" alanında, kullanıcıdan gelen soruya detaylı ve mevzuata dayalı açıklamalar yap. 
+            content: `Sen bir Türk hukuk uzmanısın. 
+            Eğer soruda eksik bilgi varsa, kullanıcıya daha fazla bilgi sormaktan çekinme.
+            Sadece "${moduleTitle}" alanında, kullanıcıdan gelen soruya detaylı ve mevzuata dayalı açıklamalar yap. 
             Yanıtlarında gereksiz tekrar yapma, sade ama özgün ol. 
             Türk mevzuatına referans verebilir, örnek durumlarla açıklayabilirsin. 
-            Yanıtın kullanıcıya gerçekten yardımcı olacak şekilde uygulanabilir ve öğretici olsun.
-            Eğer soruda eksik bilgi varsa, kullanıcıya daha fazla bilgi sormaktan çekinme.`,
+            Yanıtın kullanıcıya gerçekten yardımcı olacak şekilde uygulanabilir ve öğretici olsun.`
+            ,
           },
           {
             role: "user",

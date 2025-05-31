@@ -15,7 +15,6 @@ export default function LawModulePage({
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async () => {
-    debugger
     if (!question.trim()) return;
     setLoading(true);
     setAnswer("");

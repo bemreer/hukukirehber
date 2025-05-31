@@ -4,7 +4,7 @@ export default function IsHukuku() {
   return (
     <LawModulePage
       seo={{
-        title: "Çalışma & Çalışan Hakları | Hukukirehber",
+        title: "Çalışma & Çalışan Hakları | Hukuki Rehber",
         description:
           "İşten çıkarılma durumunda tazminat, ihbar süresi, işe iade gibi konularda AI destekli hukuki bilgilendirme alın.",
         url: "https://hukukirehber.com/modules/is-hukuku",
