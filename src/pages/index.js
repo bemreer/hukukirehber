@@ -23,7 +23,7 @@ export default function Home() {
         description="İş hukuku, kira sorunları, tüketici hakları ve daha fazlası için yapay zekâ destekli Türk Hukuku bilgilendirme platformu."
         url="https://hukukirehber.com"
         keywords="hukuk, yapay zeka, iş hukuku, kiracı hakları, trafik cezası, tüketici, avukat"
-        image="/og-images/og-home.jpg"
+        image="https://hukukirehber.com/og-images/og-home.jpg"
       />
 
       <main className="min-h-screen bg-gray-50 px-6 py-10 text-gray-800 font-sans">
