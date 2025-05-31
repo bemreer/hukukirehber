@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 
-export default function IstenCikarma() {
+export default function TuketiciHaklari() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [loading, setLoading] = useState(false);
@@ -16,7 +16,7 @@ export default function IstenCikarma() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        question: `İşten çıkarma ve çalışan hakları bağlamında bir kullanıcı şöyle soruyor: ${question}`,
+        question: `Tüketici hakları ve ayıplı mal konularında bir kullanıcı şöyle soruyor: ${question}`,
       }),
     });
 
@@ -28,17 +28,26 @@ export default function IstenCikarma() {
   return (
     <>
       <Head>
-        <title>İşten Çıkarma & Çalışan Hakları | Hukukirehber</title>
-        <meta name="description" content="İşten çıkarılma durumunda tazminat, ihbar süresi, işe iade gibi konularda AI destekli hukuki bilgilendirme alın." />
-        <meta property="og:title" content="İşten Çıkarma & Çalışan Hakları" />
-        <meta property="og:description" content="Yapay zekâ ile işten çıkarma durumunda haklarınızı öğrenin. Tazminat, fazla mesai ve daha fazlası." />
-        <meta property="og:url" content="https://hukukirehber.com/modules/isten-cikarma" />
+        <title>Tüketici Hakları | HukukiRehber</title>
+        <meta
+          name="description"
+          content="Garanti, iade, cayma hakkı, ayıplı mal gibi konularda AI destekli hukuki bilgilendirme alın."
+        />
+        <meta property="og:title" content="Tüketici Hakları" />
+        <meta
+          property="og:description"
+          content="Yapay zekâ destekli bilgilendirme ile tüketici haklarınızı öğrenin. İade, garanti, ayıplı mal gibi konular hakkında bilgi alın."
+        />
+        <meta property="og:url" content="https://hukukirehber.com/modules/tuketici-haklari" />
       </Head>
 
       <main className="min-h-screen bg-gray-50 px-6 py-10 text-gray-800 font-sans">
         <div className="max-w-2xl mx-auto space-y-6">
-          <h1 className="text-3xl font-bold">İşten Çıkarma & Çalışan Hakları</h1>
-          <p className="text-gray-600">Tazminat, ihbar süresi, işe iade, fazla mesai gibi konularda sorularınızı buradan yöneltebilirsiniz.</p>
+          <h1 className="text-3xl font-bold">Tüketici Hakları</h1>
+          <p className="text-gray-600">
+            Ayıplı mal, garanti, cayma hakkı gibi konularda sorularınızı buradan
+            yöneltebilirsiniz.
+          </p>
 
           <textarea
             rows={4}
