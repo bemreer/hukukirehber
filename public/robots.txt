@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hukukirehber.com
+
+# Sitemaps
+Sitemap: https://hukukirehber.com/sitemap.xml
