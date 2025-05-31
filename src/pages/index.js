@@ -81,6 +81,12 @@ export default function Home() {
           )}
         </section>
 
+        {/* Reklam Alanı */}
+        <div className="mt-4 border border-dashed border-gray-400 p-4 text-center text-sm text-gray-500 rounded-lg bg-gray-50">
+          Bu alana reklam yerleştirilebilir (ör. Google AdSense, sponsor içerik, PDF satışı)
+        </div>
+
+
         {/* Uyarı */}
         <footer className="text-xs text-gray-500 text-center pt-8 border-t">
           Bu platform yalnızca bilgilendirme amaçlıdır. Avukat tavsiyesi yerine geçmez.
