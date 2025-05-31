@@ -20,9 +20,9 @@ export default function Home() {
     <>
       <SeoHead
         title="Hukuki Rehber | Yapay Zeka Destekli Hukuk Rehberi"
-        description="İş hukuku, kira sorunları, tüketici hakları ve daha fazlası için yapay zekâ destekli Türk Hukuku bilgilendirme platformu."
+        description="Hukuki sorularınıza hızlı, doğru ve Türk hukuku odaklı cevaplar sunan yapay zekâ destekli dijital hukuk rehberi."
         url="https://hukukirehber.com"
-        keywords="hukuk, yapay zeka, iş hukuku, kiracı hakları, trafik cezası, tüketici, avukat"
+        keywords="hukuk, yapay zeka, avukat, iş hukuku, tüketici hakları, ceza hukuku, kira hukuku, Türkiye hukuku"
         image="https://hukukirehber.com/og-images/og-home.jpg"
       />
 
